@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>テトリス</title>
+        <link
+            rel="shortcut icon"
+            href="image/favicon.ico"
+            type="image/x-icon"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            #root {
+                font-size: 0;
+                margin: 50px;
+            }
+            .cell {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                margin: 1px;
+                background-color: rgb(205, 205, 205);
+            }
+            .filled {
+                background-color: black;
+            }
+            .mino {
+                background-color: black;
+            }
+            .mino-T {
+                background-color: red;
+            }
+            .mino-I {
+                background-color: blue;
+            }
+            .mino-S {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <!-- <p id="holded-mino"></p> -->
+        <script src="index.js"></script>
+    </body>
+</html>
